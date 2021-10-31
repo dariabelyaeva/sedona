@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Sedona</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
@@ -25,7 +26,7 @@
         </li>
       </ul>
       <a class="main-header-logo" href="index.html">
-        <img src="" alt="logo">
+        <img src="img/logo.svg" width="138" height="70" alt="logo">
       </a>
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
@@ -114,9 +115,11 @@
           <button class="range-toggle toggle-max" type="button">
             <span class="visually-hidden">Изменить максимальную цену.</span>
           </button>
+        </fieldset>
+        <div class="filters-buttons-choise">
           <button class="button-apply" type="submit">Применить</button>
           <button class="button-discard" type="reset">Сбросить</button>
-        </fieldset>
+        </div>
       </form>
     </section>
     <section class="sorting">
@@ -153,7 +156,7 @@
         <li class="hotels-card">
           <div class="hotels-info">
             <a class="hotel-link" href='#'>
-              <img class="hotel-image" src="" alt="Гостиница Amara Resort & Spa">
+              <img class="hotel-image" src="img/catalog/hotel_Amara.jpg" width="180" height="120" alt="Гостиница Amara Resort & Spa">
             </a>
             <div class="hotels-head">
               <a class="hotels-name" href="#">
@@ -171,10 +174,10 @@
           </div>
           <div class="hotels-rating">
             <div class="img-rating-stars">
-              <img class="rating-stars" src="" alt="Звезда">
-              <img class="rating-stars" src="" alt="Звезда">
-              <img class="rating-stars" src="" alt="Звезда">
-              <img class="rating-stars" src="" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
             </div>
             <div class="rating-text">
               <p class="hotel-rating">Рейтинг: 8,5</p>
@@ -184,7 +187,7 @@
         <li class="hotels-card">
           <div class="hotels-info">
             <a class="hotel-link" href='#'>
-              <img class="hotel-image" src="" alt="Мотель Desert Quail Inn">
+              <img class="hotel-image" src="img/catalog/hotel_Desert.jpg" width="180" height="120" alt="Мотель Desert Quail Inn">
             </a>
             <div class="hotels-head">
               <a class="hotels-name" href="#">
@@ -202,9 +205,9 @@
           </div>
           <div class="hotels-rating">
             <div class="img-rating-stars">
-              <img class="rating-stars" src="" alt="Звезда">
-              <img class="rating-stars" src="" alt="Звезда">
-              <img class="rating-stars" src="" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
             </div>
             <div class="rating-text">
               <p class="hotel-rating">Рейтинг: 8,9</p>
@@ -214,7 +217,7 @@
         <li class="hotels-card">
           <div class="hotels-info">
             <a class="hotel-link" href='#'>
-              <img class="hotel-image" src="" alt="Апартаменты Villas at Poco Diablo">
+              <img class="hotel-image" src="img/catalog/hotel_Poco_Diablo.jpg" width="180" height="120" alt="Апартаменты Villas at Poco Diablo">
             </a>
             <div class="hotels-head">
               <a class="hotels-name" href="#">
@@ -232,8 +235,8 @@
           </div>
           <div class="hotels-rating">
             <div class="img-rating-stars">
-              <img class="rating-stars" src="" alt="Звезда">
-              <img class="rating-stars" src="" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
             </div>
             <div class="rating-text">
               <p class="hotel-rating">Рейтинг: 9,2</p>
@@ -243,7 +246,7 @@
         <li class="hotels-card">
           <div class="hotels-info">
             <a class="hotel-link" href='#'>
-              <img class="hotel-image" src="" alt="Гостиница GreenTree Inn">
+              <img class="hotel-image" src="img/catalog/hotel_GreenTree.jpg" width="180" height="120" alt="Гостиница GreenTree Inn">
             </a>
             <div class="hotels-head">
               <a class="hotels-name" href="#">
@@ -261,15 +264,14 @@
           </div>
           <div class="hotels-rating">
             <div class="img-rating-stars">
-              <img class="rating-stars" src="" alt="Звезда">
-              <img class="rating-stars" src="" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
+              <img class="rating-stars" src="img/catalog/star.svg" width="18" height="17" alt="Звезда">
             </div>
             <div class="rating-text">
               <p class="hotel-rating">Рейтинг: 9,2</p>
             </div>
           </div>
         </li>
-
       </ul>
       <div class="catalog-button-more">
         <button class="button-more" type="button">Загрузить еще</button>
@@ -329,17 +331,17 @@
     <ul class="social">
       <li class="social-button">
         <a href="https://twitter.com/htmlacademy_ru ">
-          <img src="" alt="twitter">
+          <img src="img/social-twitter.svg" width="18" height="15" alt="twitter">
         </a>
       </li>
       <li class="social-button">
         <a href="https://www.facebook.com/htmlacademy">
-          <img src="" alt="facebook">
+          <img src="img/social-facebook.svg" width="10" height="18" alt="facebook">
         </a>
       </li>
       <li class="social-button">
         <a href="https://www.youtube.com/c/HTMLAcademyRUS ">
-          <img src="" alt="youtube">
+          <img src="img/social-youtube.svg" width="20" height="16" alt="youtube">
         </a>
       </li>
     </ul>
@@ -347,7 +349,7 @@
       +7 (812) 812-12-12
     </a>
     <a class="copyright-icon" href="https://htmlacademy.ru/">
-      <img src="" alt="html academy">
+      <img src="img/logo_htmlacademy.svg" width="115" height="34" alt="html academy">
     </a>
   </footer>
 </body>
