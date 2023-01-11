@@ -1,10 +1,5 @@
 # Личный проект «Седона»
 
-* Студент: [Дарья Беляева](https://up.htmlacademy.ru/htmlcss/32/user/1732235).
-* Наставник: [Магомед Кандаев](https://up.htmlacademy.ru/htmlcss/32/user/161600).
-
----
-
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
